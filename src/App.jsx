@@ -4,8 +4,9 @@ import Product from './component/Product'
 import Laptop from './component/Laptop'
 import Events from './component/Events'
 import Counter from './component/Counter'
+import UseEffect from './component/UseEffect'
+import Fetch_Data_API from './component/Fetch_Data_API'
 const App = () => {
-
   return (
 <>
 {/* <Person/> 
@@ -15,7 +16,9 @@ const App = () => {
 <Laptop brandName="HP" price={10500} />
 <Laptop brandName="DELL" price={15500} /> */}
 {/* <Events/> */}
-<Counter/>
+{/* <Counter/> */}
+{/* <UseEffect/> */}
+<Fetch_Data_API/>
 </>
   )
 }
