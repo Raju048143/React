@@ -1,0 +1,35 @@
+/* meal.css */
+
+input {
+    width: 20rem;
+    background-color: rgb(70, 44, 44);
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgb(90, 60, 60); /* Slightly lighter on focus for visual feedback */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Meal Card */
+.meal-card {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.meal-card:hover {
+    transform: scale(1.05);
+}
+
+/* Button group styling (if needed) */
+.button-group button {
+    margin: 0.5rem;
+    min-width: 100px;
+}
