@@ -6,10 +6,12 @@ import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Course_Details from "./pages/Course_Details";
+import Navbar from "./pages/Navbar";
 function App() {
   return (
     <>
       <Router>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
